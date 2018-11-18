@@ -1,0 +1,8 @@
+Iniciar o mongo : docker start mongodb {
+    criar banco mongo: sudo docker run --name mongodb -p 27017:27017 -d mongo
+
+}
+nodemon: deixa o server autlizando automaticamente : npm run dev
+express: conexão com servidor
+require-dir: faz o require de todos os diretorios 
+cors: pacote que permite o acesso de outros endereços
